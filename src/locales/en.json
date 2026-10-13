@@ -13,8 +13,8 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Rockbeasts Wiki — Guides, Band Management, Characters & Release Info",
+      "description": "Complete Rockbeasts guide covering band management, touring, setlists, story choices, characters, platforms, and the latest release and demo news."
     },
     "hero": {
       "eyebrow": "Fantasy Rock Creature Adventure",
@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Rockbeasts Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the weekly loop, band setup, money and energy management, and the early mistakes that stall a first tour."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Band Management",
+          "description": "Balance chemistry, morale, and ego across your roster so the band survives long enough to make it big."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Touring & Shows",
+          "description": "Plan routes, book the right venues, and read the crowd during live shows to grow cash and reputation."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Story Choices",
+          "description": "Understand how dialogue, roster, and route decisions ripple forward and shape your band's ending."
         }
       ]
     },
@@ -66,237 +66,331 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Band Management",
+        "Story Choices",
+        "Release Date"
       ],
       "cards": [
         {
           "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "title": "Rockbeasts Beginner Guide",
+          "description": "Set up your first band, protect morale, and avoid the early mistakes that end most first tours.",
+          "href": "/guide/rockbeasts-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Core",
+          "title": "Band Management Guide",
+          "description": "Roster building, morale, contracts, and gear: the systems that decide whether a band lasts.",
+          "href": "/mechanics/rockbeasts-band-management"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Core",
+          "title": "Gameplay Guide",
+          "description": "The weekly loop of planning, writing, rehearsal, booking, performing, and recovery explained.",
+          "href": "/guide/rockbeasts-gameplay"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Story",
+          "title": "Choices Explained",
+          "description": "How dialogue, roster, upgrade, and route decisions shape your run and your ending.",
+          "href": "/mechanics/rockbeasts-choices"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Characters",
+          "title": "Characters Explained",
+          "description": "Band member archetypes, stat sheets, team roles, and roster-building tips.",
+          "href": "/characters/rockbeasts-characters"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Music",
+          "title": "Music RPG Mechanics",
+          "description": "Band chemistry, setlist strategy, live show timing, and the tour economy broken down.",
+          "href": "/mechanics/rockbeasts-music-rpg"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Release",
+          "title": "Release Date Guide",
+          "description": "How to verify the launch window, platforms, and editions on official store pages.",
+          "href": "/release/rockbeasts-release-date"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Media",
+          "title": "Trailer Breakdown",
+          "description": "What the reveal trailer shows about the beast band, its tone, and the core loop.",
+          "href": "/release/rockbeasts-trailer"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Updates",
+          "title": "Update Guide",
+          "description": "How Rockbeasts patches roll out, how to read notes, and how to prep your save.",
+          "href": "/release/rockbeasts-update"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Rockbeasts?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Rockbeasts is a band-management music RPG where you steer a crew of beastly musicians from scruffy small-venue gigs toward rock stardom. Instead of shredding solos yourself, you run the business and the relationships that make the shows possible: booking gigs, reading crowds, calming egos, and deciding when to push a band past its breaking point.",
+        "Every week you balance four pools of resources — cash, energy, hype, and cohesion — while songwriting and setlist choices decide how a show lands. The narrative unfolds between performances, in van rides and backstage arguments, so the decisions you make offstage shape who the band becomes on it."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
-        {
-          "label": "Platform",
-          "value": "Roblox"
+          "label": "Publisher",
+          "value": "Team17"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Band Management RPG"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Platform",
+          "value": "PC & Consoles"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Setting",
+          "value": "Beast Rock Band"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Core Systems",
+          "value": "Chemistry, Morale, Ego"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Tour Loop",
+          "value": "Plan, Write, Perform, Recover"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Rockbeasts Wiki",
+      "description": "Master your band's rise with guides to band management, touring, setlists, story choices, characters, platforms, and every update in the rock & roll management RPG.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Rockbeasts Beginner Guide",
+          "description": "A starter guide covering the basic gameplay loop, band management systems, resource handling, and important decisions for new players. This module helps beginners understand how to build a successful band and progress through the story.",
+          "href": "/guide/rockbeasts-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Set weekly goals and check every member's energy and mood before you commit."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Write or rehearse early in the week while the band still has energy."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Handle rent, gear, and promotion before late-week panic spending sets in."
+            },
+            {
+              "label": "4",
+              "detail": "Book one good show instead of two rushed ones."
+            },
+            {
+              "label": "5",
+              "detail": "Keep a cash buffer so a single bad week never ends the run."
+            },
+            {
+              "label": "6",
+              "detail": "Review hype and morale, then schedule a rest week before burnout compounds."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Rockbeasts Gameplay Features",
+          "description": "Showcase the main gameplay mechanics including managing band members, organizing gigs, creating setlists, handling equipment, and making narrative choices. It provides players with a complete overview of what they can do in the game.",
+          "href": "/guide/rockbeasts-gameplay",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Core Loop",
+              "detail": "Plan, write, rehearse, book, perform, and recover in a repeating weekly cycle."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Chemistry",
+              "detail": "How well members play together decides more shows than raw individual skill."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Morale",
+              "detail": "Individual happiness drives attendance, clean cues, and staying power."
+            },
+            {
+              "label": "Setlists",
+              "detail": "Opener, middle, and closer blocks shape how crowd energy rises and falls."
+            },
+            {
+              "label": "Tour Money",
+              "detail": "Door splits, merch, and smart routing keep the van and the band alive."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
+          "name": "Rockbeasts Band Members",
+          "description": "A character-focused section introducing the playable band members, their personalities, relationships, and unique traits. Players can learn how each member contributes to the band's journey and story progression.",
+          "href": "/characters/rockbeasts-characters",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Frontperson — carries live shows with stage presence and crowd connection."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Guitarist and drummer — the songwriting backbone and the live energy engine."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Bassist — the groove and glue that holds the whole arrangement together."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Keys and texture — situational atmosphere that shines in the right set."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Rockbeasts Story Choices",
+          "description": "Explains the branching narrative system, moral decisions, and relationship choices that influence the band's career path. This module targets players searching for story details and different outcomes.",
+          "href": "/mechanics/rockbeasts-choices",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Money",
+              "detail": "Corporate gigs pay for repairs but cost credibility with the scene that made you."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Disputes",
+              "detail": "Backing one member settles the room for a night and quietly cools another relationship."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Setlist",
+              "detail": "Crowd requests versus new material shift your creative identity over time."
+            },
+            {
+              "label": "Lifestyle",
+              "detail": "Rest or push through decides stamina recovery, burnout, and growth flags."
+            },
+            {
+              "label": "Image",
+              "detail": "Interviews and photo ops change how new fans find and read the band."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Rockbeasts Songs and Setlists",
+          "description": "Covers the music system, original soundtrack information, concert preparation, and setlist management mechanics. It helps users searching for information about performances and music gameplay.",
+          "href": "/mechanics/rockbeasts-music-rpg",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Opener",
+              "detail": "Grab attention immediately with two or three of your strongest tracks."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Middle",
+              "detail": "Show range and debut new material across four to six songs."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Closer",
+              "detail": "Send the crowd home loud with your biggest two or three songs."
+            },
+            {
+              "label": "Energy",
+              "detail": "Every high-intensity song drains the shared pool; slower numbers restore it."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Rockbeasts Release Date and Platforms",
+          "description": "Provides updated information about release timing, supported platforms, demo availability, and store links. This module targets users searching for when and where they can play Rockbeasts.",
+          "href": "/release/rockbeasts-release-date",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Release",
+              "detail": "Check the official store page and publisher channels for the locked launch window."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Platforms",
+              "detail": "PC storefronts and console listings confirm exactly where the game ships."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Demo",
+              "detail": "A playable slice covers the opening tutorial and early progression systems."
+            },
+            {
+              "label": "Price",
+              "detail": "Compare edition tiers and regional pricing before you commit to a pre-order."
+            },
+            {
+              "label": "Wishlist",
+              "detail": "Wishlisting sends an alert the moment a release date is confirmed."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Rockbeasts Trailers and Media",
+          "description": "Collects official trailers, screenshots, and promotional media for players who want to preview the game's art style and gameplay atmosphere. It also supports searches related to videos and visual content.",
+          "href": "/release/rockbeasts-trailer",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Trailer",
+              "detail": "The reveal trailer introduces the beast band, its tone, and the core loop."
+            },
+            {
+              "label": "Art Style",
+              "detail": "Stylized, slightly grimy visuals signal satire rather than a power fantasy."
+            },
+            {
+              "label": "Cast",
+              "detail": "Each member has a defined role and a defined flaw that creates drama."
+            },
+            {
+              "label": "Gallery",
+              "detail": "Screenshots and promo art preview venues, characters, and stage energy."
+            },
+            {
+              "label": "Humor",
+              "detail": "Deadpan comedy and awkward interviews anchor the game's writing."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Rockbeasts News and Updates",
+          "description": "Tracks official announcements, development updates, showcase appearances, and important community news. This section helps returning visitors stay informed before and after release.",
+          "href": "/release/rockbeasts-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Major releases, balance passes, and hotfixes arrive on a rolling cycle."
+            },
+            {
+              "label": "Notes",
+              "detail": "Read patch notes in passes to catch economy and save-data changes."
+            },
+            {
+              "label": "Known Bugs",
+              "detail": "The known-issues list shows what may break right after a milestone build."
+            },
+            {
+              "label": "Community",
+              "detail": "Official channels and fan threads separate verified news from early speculation."
+            },
+            {
+              "label": "Prep",
+              "detail": "Back up saves and re-check settings before a big update lands."
             }
           ]
         }
@@ -304,27 +398,31 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "description": "Quick answers to the most common questions about Rockbeasts.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Rockbeasts?",
+          "answer": "Rockbeasts is a band-management music RPG where you steer a crew of beastly musicians from small venues to rock stardom. You balance money, energy, chemistry, and morale while writing songs and playing live shows."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Rockbeasts a rhythm game?",
+          "answer": "No. Rockbeasts is a management RPG: you plan tours, build setlists, and make live calls while the show unfolds instead of matching notes to a beat map."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What should beginners focus on first in Rockbeasts?",
+          "answer": "Rockbeasts rewards patience. Protect cohesion and morale, keep a cash buffer, write before you book, and never accept every paying gig that comes your way."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Which platforms is Rockbeasts on?",
+          "answer": "Rockbeasts targets PC storefronts plus console platforms. Check the official store listing for your region to confirm availability and system requirements."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Does Rockbeasts have a demo?",
+          "answer": "Yes. The Rockbeasts demo offers a self-contained slice with the opening tutorial, early areas, and a taste of the progression systems before the full release."
+        },
+        {
+          "question": "How do Rockbeasts choices affect the story?",
+          "answer": "Dialogue, roster, and route decisions set flags that ripple forward across the tour, shaping relationships, reputation, and which endings your band can reach."
         }
       ]
     },
