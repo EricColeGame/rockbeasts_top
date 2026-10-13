@@ -1,1 +1,504 @@
-{}
+{
+  "site": {
+    "name": "Rockbeasts Wiki",
+    "shortName": "Rockbeasts",
+    "tagline": "Guides, Créatures, Personnages & Gameplay",
+    "description": "Votre wiki Rockbeasts ultime : détails sur les créatures et les personnages, guides de gameplay et de gestion de groupe, astuces de progression et tout sur le RPG de gestion rock & roll.",
+    "legalNotice": "Wiki de fans non officiel. Fait par des joueurs, pour des joueurs."
+  },
+  "nav": {
+    "home": "Accueil",
+    "guide": "Guide",
+    "characters": "Personnages",
+    "mechanics": "Mécaniques",
+    "platforms": "Plateformes",
+    "community": "Communauté",
+    "release": "Sortie",
+    "menu": "Menu",
+    "toggleTheme": "Changer de thème"
+  },
+  "home": {
+    "meta": {
+      "title": "Rockbeasts Wiki — Guides, gestion de groupe, personnages et infos de sortie",
+      "description": "Guide Rockbeasts complet couvrant la gestion de groupe, les tournées, les setlists, les choix narratifs, les personnages, les plateformes et les dernières news de sortie et de démo."
+    },
+    "hero": {
+      "eyebrow": "Aventure fantastique de créatures rock",
+      "title": "Rockbeasts Wiki",
+      "description": "Rockbeasts est un jeu d'aventure centré sur les créatures où les joueurs explorent un monde fantastique musical, découvrent des créatures rock uniques et apprennent les systèmes de gameplay, les personnages et la progression.",
+      "stats": [
+        "Base de créatures",
+        "Guides de personnages",
+        "Systèmes de gameplay",
+        "Astuces de progression"
+      ],
+      "primaryCta": "Guide du débutant",
+      "secondaryCta": "Jouer sur Steam",
+      "tertiaryCta": "Codes actifs",
+      "videoLabel": "Bande-annonce officielle"
+    },
+    "updates": {
+      "title": "Dernières mises à jour",
+      "browse": "Parcourir tous les guides",
+      "viewAll": "Voir tout"
+    },
+    "start": {
+      "eyebrow": "Commencez ici",
+      "title": "Votre parcours Rockbeasts",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guide du débutant",
+          "description": "Apprenez la boucle hebdomadaire, la composition du groupe, la gestion de l'argent et de l'énergie, et les erreurs précoces qui bloquent une première tournée."
+        },
+        {
+          "number": "2",
+          "title": "Gestion de groupe",
+          "description": "Équilibrez la chimie, le moral et l'ego au sein de votre effectif pour que le groupe survive assez longtemps pour percer."
+        },
+        {
+          "number": "3",
+          "title": "Tournées & concerts",
+          "description": "Planifiez les itinéraires, réservez les bonnes salles et lisez la foule pendant les concerts pour augmenter l'argent et la réputation."
+        },
+        {
+          "number": "4",
+          "title": "Choix narratifs",
+          "description": "Comprenez comment les dialogues, l'effectif et les itinéraires se répercutent et façonnent la fin de votre groupe."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Pages populaires",
+      "title": "Tendances actuelles",
+      "quickLinks": [
+        "Guide du débutant",
+        "Gestion de groupe",
+        "Choix narratifs",
+        "Date de sortie"
+      ],
+      "cards": [
+        {
+          "badge": "Débutant",
+          "title": "Guide du débutant Rockbeasts",
+          "description": "Montez votre premier groupe, protégez le moral et évitez les erreurs précoces qui mettent fin à la plupart des premières tournées.",
+          "href": "/guide/rockbeasts-beginner-guide"
+        },
+        {
+          "badge": "Base",
+          "title": "Guide de gestion de groupe",
+          "description": "Composition de l'effectif, moral, contrats et matériel : les systèmes qui décident si un groupe dure.",
+          "href": "/mechanics/rockbeasts-band-management"
+        },
+        {
+          "badge": "Base",
+          "title": "Guide de gameplay",
+          "description": "La boucle hebdomadaire de planification, écriture, répétition, réservation, concert et récupération expliquée.",
+          "href": "/guide/rockbeasts-gameplay"
+        },
+        {
+          "badge": "Histoire",
+          "title": "Les choix expliqués",
+          "description": "Comment les dialogues, l'effectif, les améliorations et les itinéraires façonnent votre partie et votre fin.",
+          "href": "/mechanics/rockbeasts-choices"
+        },
+        {
+          "badge": "Personnages",
+          "title": "Personnages expliqués",
+          "description": "Archétypes des membres du groupe, fiches de statistiques, rôles d'équipe et astuces de composition.",
+          "href": "/characters/rockbeasts-characters"
+        },
+        {
+          "badge": "Musique",
+          "title": "Mécaniques du RPG musical",
+          "description": "Chimie du groupe, stratégie de setlist, timing des concerts et économie des tournées décortiqués.",
+          "href": "/mechanics/rockbeasts-music-rpg"
+        },
+        {
+          "badge": "Sortie",
+          "title": "Guide de date de sortie",
+          "description": "Comment vérifier la fenêtre de lancement, les plateformes et les éditions sur les pages de boutique officielles.",
+          "href": "/release/rockbeasts-release-date"
+        },
+        {
+          "badge": "Médias",
+          "title": "Analyse de la bande-annonce",
+          "description": "Ce que la bande-annonce révèle sur le groupe de créatures, son ton et la boucle principale.",
+          "href": "/release/rockbeasts-trailer"
+        },
+        {
+          "badge": "Mises à jour",
+          "title": "Guide des mises à jour",
+          "description": "Comment les correctifs Rockbeasts sont déployés, comment lire les notes et préparer votre sauvegarde.",
+          "href": "/release/rockbeasts-update"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Qu'est-ce que Rockbeasts ?",
+      "paragraphs": [
+        "Rockbeasts est un RPG musical de gestion de groupe où vous menez une équipe de musiciens bestiaux de petits concerts miteux jusqu'à la gloire rock. Au lieu de jouer des solos vous-même, vous gérez le business et les relations qui rendent les concerts possibles : réserver des concerts, lire la foule, apaiser les egos et décider quand pousser un groupe au-delà de son point de rupture.",
+        "Chaque semaine, vous équilibrez quatre ressources — argent, énergie, hype et cohésion — tandis que l'écriture et les setlists décident de la réussite d'un concert. Le récit se déroule entre les performances, dans les trajets en van et les disputes en coulisses, si bien que vos décisions hors scène déterminent ce que le groupe devient sur scène."
+      ],
+      "stats": [
+        {
+          "label": "Éditeur",
+          "value": "Team17"
+        },
+        {
+          "label": "Genre",
+          "value": "RPG de gestion de groupe"
+        },
+        {
+          "label": "Plateforme",
+          "value": "PC & consoles"
+        },
+        {
+          "label": "Cadre",
+          "value": "Groupe rock bestial"
+        },
+        {
+          "label": "Systèmes clés",
+          "value": "Chimie, moral, ego"
+        },
+        {
+          "label": "Boucle de tournée",
+          "value": "Planifier, écrire, jouer, récupérer"
+        }
+      ],
+      "cta": "Explorer tous les guides"
+    },
+    "explore": {
+      "title": "Explorer le wiki Rockbeasts",
+      "description": "Maîtrisez l'ascension de votre groupe avec des guides sur la gestion de groupe, les tournées, les setlists, les choix narratifs, les personnages, les plateformes et chaque mise à jour du RPG de gestion rock & roll.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guide du débutant Rockbeasts",
+          "description": "Un guide de démarrage couvrant la boucle de gameplay de base, les systèmes de gestion de groupe, la gestion des ressources et les décisions importantes pour les nouveaux joueurs. Ce module aide les débutants à comprendre comment bâtir un groupe prospère et progresser dans l'histoire.",
+          "href": "/guide/rockbeasts-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Fixez des objectifs hebdomadaires et vérifiez l'énergie et l'humeur de chaque membre avant de vous engager."
+            },
+            {
+              "label": "2",
+              "detail": "Écrivez ou répétez tôt dans la semaine pendant que le groupe a encore de l'énergie."
+            },
+            {
+              "label": "3",
+              "detail": "Gérez le loyer, le matériel et la promotion avant les dépenses de panique de fin de semaine."
+            },
+            {
+              "label": "4",
+              "detail": "Réservez un bon concert plutôt que deux précipités."
+            },
+            {
+              "label": "5",
+              "detail": "Gardez une réserve d'argent pour qu'une mauvaise semaine ne mette jamais fin à la partie."
+            },
+            {
+              "label": "6",
+              "detail": "Examinez la hype et le moral, puis planifiez une semaine de repos avant que l'épuisement ne s'accumule."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Fonctionnalités de gameplay de Rockbeasts",
+          "description": "Présente les principales mécaniques de gameplay, notamment la gestion des membres du groupe, l'organisation des concerts, la création de setlists, la gestion du matériel et les choix narratifs. Il offre un aperçu complet de ce qu'il est possible de faire dans le jeu.",
+          "href": "/guide/rockbeasts-gameplay",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Boucle principale",
+              "detail": "Planifier, écrire, répéter, réserver, jouer et récupérer dans un cycle hebdomadaire répétitif."
+            },
+            {
+              "label": "Chimie",
+              "detail": "La cohésion entre les membres détermine plus de concerts que le talent individuel brut."
+            },
+            {
+              "label": "Moral",
+              "detail": "Le bonheur individuel influence la fréquentation, la propreté des passages et l'endurance."
+            },
+            {
+              "label": "Setlists",
+              "detail": "Les blocs d'ouverture, du milieu et de clôture façonnent la montée et la chute de l'énergie du public."
+            },
+            {
+              "label": "Argent des tournées",
+              "detail": "Parts de recettes, merch et itinéraires intelligents maintiennent le van et le groupe en vie."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Membres du groupe Rockbeasts",
+          "description": "Une section centrée sur les personnages présentant les membres jouables du groupe, leurs personnalités, leurs relations et leurs traits uniques. Les joueurs découvrent comment chaque membre contribue au parcours et à la progression narrative du groupe.",
+          "href": "/characters/rockbeasts-characters",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Frontman — porte les concerts avec sa présence scénique et le contact avec la foule."
+            },
+            {
+              "label": "A",
+              "detail": "Guitariste et batteur — la colonne vertébrale de l'écriture et le moteur d'énergie en live."
+            },
+            {
+              "label": "B",
+              "detail": "Bassiste — le groove et le liant qui tiennent l'ensemble de l'arrangement."
+            },
+            {
+              "label": "C",
+              "detail": "Claviers et textures — une atmosphère situationnelle qui brille dans le bon set."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Choix narratifs de Rockbeasts",
+          "description": "Explique le système narratif ramifié, les décisions morales et les choix relationnels qui influencent la carrière du groupe. Ce module cible les joueurs qui cherchent des détails sur l'histoire et les différentes fins.",
+          "href": "/mechanics/rockbeasts-choices",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Argent",
+              "detail": "Les concerts d'entreprise paient les réparations mais coûtent de la crédibilité auprès de la scène qui vous a fait."
+            },
+            {
+              "label": "Conflits",
+              "detail": "Soutenir un membre apaise la salle pour une nuit et refroidit discrètement une autre relation."
+            },
+            {
+              "label": "Setlist",
+              "detail": "Les demandes du public face au nouveau matériel déplacent votre identité créative au fil du temps."
+            },
+            {
+              "label": "Mode de vie",
+              "detail": "Se reposer ou tenir bon décide de la récupération d'endurance, de l'épuisement et des indicateurs de progression."
+            },
+            {
+              "label": "Image",
+              "detail": "Les interviews et les shootings changent la façon dont les nouveaux fans découvrent et perçoivent le groupe."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Chansons et setlists de Rockbeasts",
+          "description": "Couvre le système musical, les informations sur la bande originale, la préparation des concerts et les mécaniques de gestion des setlists. Il aide les utilisateurs qui cherchent des informations sur les performances et le gameplay musical.",
+          "href": "/mechanics/rockbeasts-music-rpg",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Ouverture",
+              "detail": "Captez immédiatement l'attention avec deux ou trois de vos meilleurs titres."
+            },
+            {
+              "label": "Milieu",
+              "detail": "Montrez votre variété et dévoilez du nouveau matériel sur quatre à six chansons."
+            },
+            {
+              "label": "Clôture",
+              "detail": "Renvoyez le public chez lui à fond avec vos deux ou trois plus gros morceaux."
+            },
+            {
+              "label": "Énergie",
+              "detail": "Chaque chanson très intense vide la réserve commune ; les morceaux plus lents la reconstituent."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Date de sortie et plateformes de Rockbeasts",
+          "description": "Fournit des informations à jour sur la date de sortie, les plateformes prises en charge, la disponibilité de la démo et les liens de boutique. Ce module cible les utilisateurs qui cherchent quand et où jouer à Rockbeasts.",
+          "href": "/release/rockbeasts-release-date",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Sortie",
+              "detail": "Consultez la page de boutique officielle et les canaux de l'éditeur pour la fenêtre de lancement confirmée."
+            },
+            {
+              "label": "Plateformes",
+              "detail": "Les boutiques PC et les fiches consoles confirment exactement où le jeu sort."
+            },
+            {
+              "label": "Démo",
+              "detail": "Un extrait jouable couvre le tutoriel d'ouverture et les premiers systèmes de progression."
+            },
+            {
+              "label": "Prix",
+              "detail": "Comparez les niveaux d'édition et les prix régionaux avant de vous engager sur une précommande."
+            },
+            {
+              "label": "Liste de souhaits",
+              "detail": "Ajouter à la liste de souhaits envoie une alerte dès qu'une date de sortie est confirmée."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Bandes-annonces et médias de Rockbeasts",
+          "description": "Rassemble les bandes-annonces officielles, les captures d'écran et les supports promotionnels pour les joueurs qui veulent un aperçu du style artistique et de l'ambiance de jeu. Il soutient aussi les recherches liées aux vidéos et aux contenus visuels.",
+          "href": "/release/rockbeasts-trailer",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Bande-annonce",
+              "detail": "La bande-annonce de révélation présente le groupe de créatures, son ton et la boucle principale."
+            },
+            {
+              "label": "Style artistique",
+              "detail": "Un visuel stylisé et légèrement crasseux annonce la satire plutôt qu'une power fantasy."
+            },
+            {
+              "label": "Distribution",
+              "detail": "Chaque membre a un rôle défini et un défaut défini qui crée le drame."
+            },
+            {
+              "label": "Galerie",
+              "detail": "Captures d'écran et art promotionnel dévoilent les salles, les personnages et l'énergie scénique."
+            },
+            {
+              "label": "Humour",
+              "detail": "Un humour pince-sans-rire et des interviews maladroites ancrent l'écriture du jeu."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Actualités et mises à jour de Rockbeasts",
+          "description": "Suit les annonces officielles, les mises à jour de développement, les apparitions en showcase et les nouvelles importantes de la communauté. Cette section aide les visiteurs réguliers à rester informés avant et après la sortie.",
+          "href": "/release/rockbeasts-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Correctifs",
+              "detail": "Les grandes sorties, les passes d'équilibrage et les correctifs arrivent selon un cycle continu."
+            },
+            {
+              "label": "Notes",
+              "detail": "Lisez les notes de correctif attentivement pour repérer les changements d'économie et de sauvegarde."
+            },
+            {
+              "label": "Bugs connus",
+              "detail": "La liste des problèmes connus montre ce qui peut casser juste après une version majeure."
+            },
+            {
+              "label": "Communauté",
+              "detail": "Les canaux officiels et les fils de fans séparent les nouvelles vérifiées des premières spéculations."
+            },
+            {
+              "label": "Préparation",
+              "detail": "Sauvegardez vos parties et vérifiez vos réglages avant qu'une grosse mise à jour n'arrive."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "Des réponses rapides aux questions les plus courantes sur Rockbeasts.",
+      "items": [
+        {
+          "question": "Qu'est-ce que Rockbeasts ?",
+          "answer": "Rockbeasts est un RPG musical de gestion de groupe où vous menez une équipe de musiciens bestiaux de petites salles jusqu'à la gloire rock. Vous équilibrez argent, énergie, chimie et moral tout en écrivant des chansons et en jouant des concerts."
+        },
+        {
+          "question": "Rockbeasts est-il un jeu de rythme ?",
+          "answer": "Non. Rockbeasts est un RPG de gestion : vous planifiez des tournées, construisez des setlists et prenez des décisions en direct pendant que le concert se déroule, au lieu de suivre des notes sur une beatmap."
+        },
+        {
+          "question": "Sur quoi les débutants doivent-ils se concentrer d'abord dans Rockbeasts ?",
+          "answer": "Rockbeasts récompense la patience. Protégez la cohésion et le moral, gardez une réserve d'argent, écrivez avant de réserver et n'acceptez jamais tous les concerts payants qui se présentent."
+        },
+        {
+          "question": "Sur quelles plateformes Rockbeasts est-il disponible ?",
+          "answer": "Rockbeasts vise les boutiques PC ainsi que les plateformes consoles. Consultez la fiche de boutique officielle de votre région pour confirmer la disponibilité et la configuration requise."
+        },
+        {
+          "question": "Rockbeasts a-t-il une démo ?",
+          "answer": "Oui. La démo de Rockbeasts offre un extrait autonome avec le tutoriel d'ouverture, les premières zones et un aperçu des systèmes de progression avant la sortie complète."
+        },
+        {
+          "question": "Comment les choix dans Rockbeasts affectent-ils l'histoire ?",
+          "answer": "Les décisions de dialogue, d'effectif et d'itinéraire posent des indicateurs qui se répercutent sur toute la tournée, façonnant les relations, la réputation et les fins que votre groupe peut atteindre."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Prêt à maîtriser Rockbeasts ?",
+      "description": "De vos premières rencontres de créatures à la gestion de groupe en fin de partie, notre wiki communautaire vous couvre avec des guides gratuits et à jour.",
+      "primary": "Lire le guide du débutant",
+      "secondary": "Jouer sur Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guides du débutant Rockbeasts",
+    "overviewDescription": "Démarrez fort dans Rockbeasts avec des soluces, des astuces pour débutants et des guides pas à pas couvrant les bases du gameplay, les téléchargements et votre premier groupe."
+  },
+  "characters": {
+    "overviewTitle": "Personnages de Rockbeasts",
+    "overviewDescription": "Découvrez le casting de Rockbeasts : membres jouables du groupe, artistes, auteurs et les comédiens de doublage qui donnent vie à ce RPG rock and roll."
+  },
+  "mechanics": {
+    "overviewTitle": "Mécaniques de jeu de Rockbeasts",
+    "overviewDescription": "Comprenez comment Rockbeasts se joue, de la gestion de groupe et l'écriture à la sortie des choix narratifs et aux systèmes derrière chaque tournée et chaque concert."
+  },
+  "platforms": {
+    "overviewTitle": "Plateformes Rockbeasts",
+    "overviewDescription": "Découvrez où jouer à Rockbeasts sur Steam, PS5, PS4, Xbox, Switch et le Microsoft Store, avec des notes de plateforme pour chaque version."
+  },
+  "community": {
+    "overviewTitle": "Communauté Rockbeasts",
+    "overviewDescription": "Rejoignez la communauté Rockbeasts via le Discord officiel, Reddit, les mises à jour des développeurs, les news Team17 et des jeux comme Rockbeasts qui valent le détour."
+  },
+  "release": {
+    "overviewTitle": "Sortie & mises à jour Rockbeasts",
+    "overviewDescription": "Suivez tout sur la sortie de Rockbeasts, notamment la date de sortie, le prix, la démo, les bandes-annonces et les dernières nouvelles de patch et de mise à jour."
+  },
+  "shared": {
+    "wikiNavigation": "Navigation du wiki",
+    "activeCodes": "Codes actifs",
+    "updated": "Mis à jour",
+    "viewAllCodes": "Voir tous les codes",
+    "playOnRoblox": "Jouer sur Roblox",
+    "inThisSection": "Dans cette section",
+    "tableOfContents": "Table des matières",
+    "nextSteps": "Étapes suivantes",
+    "needHelp": "Besoin d'aide ?",
+    "relatedReading": "Lecture associée",
+    "relatedGuides": "Guides associés",
+    "readMore": "Lire la suite",
+    "officialMedia": "Médias officiels",
+    "home": "Accueil",
+    "noGuidesAvailable": "Aucun guide disponible pour l'instant. Revenez bientôt !"
+  },
+  "footer": {
+    "aboutTitle": "Rockbeasts Wiki",
+    "about": "Rockbeasts Wiki est un hub de guides indépendant créé par des fans, couvrant les créatures, les personnages, les systèmes de gameplay et la progression pour les nouveaux joueurs comme les vétérans.",
+    "quickLinks": "Liens rapides",
+    "guides": "Guides",
+    "legal": "Mentions légales",
+    "copyright": "2026 Rockbeasts Wiki. Non affilié à Lichthund ni à Rockbeasts.",
+    "description": "Un RPG de gestion rock & roll centré sur les créatures. Découvrez des créatures, des personnages et des systèmes de gameplay.",
+    "playGame": "Jouer à Rockbeasts sur Steam",
+    "officialDiscord": "Discord officiel",
+    "officialYoutube": "YouTube officiel",
+    "vvBuilder": "Ressources communautaires",
+    "beginnerGuide": "Guide du débutant",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "characterGuides": "Personnages",
+    "mechanicsGuides": "Mécaniques de jeu",
+    "platformGuides": "Plateformes",
+    "communityGuides": "Communauté",
+    "releaseGuides": "Sortie & mises à jour"
+  }
+}
