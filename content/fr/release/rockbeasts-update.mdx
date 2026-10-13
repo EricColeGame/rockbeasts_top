@@ -1,0 +1,122 @@
+export const metadata = {
+  title: "Guide des mises à jour de Rockbeasts : notes de version, calendrier et ce à quoi s'attendre ensuite",
+  description: "Un guide pratique pour chaque mise à jour de Rockbeasts : comment lire les notes de version, préparer votre sauvegarde, suivre le déploiement et résoudre les problèmes courants après une mise à jour.",
+  category: "release",
+  date: "2026-10-13",
+}
+
+Une mise à jour de Rockbeasts peut transformer toute l'expérience du jour au lendemain — nouveau contenu, systèmes rééquilibrés et corrections de bugs arrivant tous en même temps — et les joueurs qui ne sont pas préparés passent souvent leur première soirée à dépanner au lieu de jouer. C'est exactement pourquoi suivre le cycle de mises à jour de Rockbeasts compte : savoir ce qui arrive, environ quand cela sortira et comment se préparer transforme une journée de patch stressante en une journée fluide. Ce guide explique comment les mises à jour de Rockbeasts sont généralement déployées, comment lire les notes de version avec un œil critique et quoi faire quand quelque chose casse une fois le téléchargement terminé.
+
+## Pourquoi le cycle de mises à jour de Rockbeasts compte pour les joueurs
+
+Les mises à jour ne sont rarement que des « corrections de bugs ». Dans la plupart des jeux en service continu, un seul patch peut modifier l'équilibrage, changer le rythme de progression, altérer la structure des données de sauvegarde et introduire de nouveaux systèmes qui interagissent avec tout ce qui existe déjà. Rockbeasts ne fait pas exception à cet égard — chaque version tend à se répercuter bien au-delà de sa fonctionnalité principale.
+
+La conséquence pratique est que les joueurs qui lisent attentivement les notes gagnent un véritable avantage. Ils savent quelles stratégies deviennent soudain plus faibles, quelles ressources prennent de la valeur et quels réglages doivent être revérifiés après le patch. Pendant ce temps, les joueurs qui sautent les notes supposent souvent que le jeu est cassé alors qu'il se comporte exactement comme prévu.
+
+Il y a aussi une dimension sociale. Les rapports de la communauté et les fils de discussion sur l'expérience des joueurs se remplissent vite après chaque mise à jour de Rockbeasts, et une grande partie de ce qui circule au début est soit incomplète, soit carrément fausse. Apprendre à distinguer les informations vérifiées des spéculations est une compétence qui vaut la peine d'être développée.
+
+### Ce que « release » signifie réellement ici
+
+Quand une mise à jour est étiquetée comme une release, cela indique généralement une version jalon plutôt qu'un petit hotfix. Cela signifie en général un téléchargement plus long, un journal des modifications plus volumineux et une probabilité plus élevée d'instabilité temporaire dans les heures qui suivent le lancement. Attendez-vous à ce que le premier jour soit le plus chaotique et à ce que la semaine suivante se stabilise.
+
+## Ce qui est généralement inclus dans une mise à jour de Rockbeasts
+
+Tous les patchs n'ont pas le même poids. Comprendre les catégories vous aide à décider à quel point y prêter attention — et à quel point être prudent avec votre sauvegarde.
+
+| Type de mise à jour | Contenu typique | Qui doit y prêter le plus attention | Taille relative |
+|---|---|---|---|
+| Version majeure | Nouveau contenu, refonte de systèmes, changements de progression | Tout le monde, surtout les joueurs de longue date | Grande |
+| Patch d'équilibrage | Réglages des dégâts, coûts, temps de recharge et taux de butin | Joueurs compétitifs et axés sur l'optimisation | Moyenne |
+| Mise à jour de confort de jeu | Ajustements d'interface, options d'accessibilité, outils d'inventaire | Tous les joueurs, risque faible | Petite à moyenne |
+| Hotfix | Corrections ciblées de plantages et d'exploits | Joueurs touchés par le bug spécifique | Petite |
+| Contenu saisonnier ou événementiel | Contenu temporisé, récompenses limitées, cosmétiques thématiques | Collectionneurs et complétionnistes | Moyenne |
+
+Une règle utile : plus un patch touche à la progression ou à la structure de sauvegarde, plus vous devez le traiter comme une version majeure, même si les notes le décrivent comme mineur. Les termes employés par les développeurs et l'impact réel ne coïncident pas toujours.
+
+## Comment lire les notes de mise à jour de Rockbeasts sans rien manquer
+
+Les notes de patch sont rédigées pour aller vite, pas pour être claires. Elles sont souvent publiées dans la précipitation, et les détails importants se cachent dans des phrases isolées. Lisez-les en plusieurs passes plutôt que d'un bout à l'autre.
+
+**Première passe :** parcourez tout ce qui est présenté comme un changement aux systèmes principaux, à la compatibilité des sauvegardes ou aux valeurs économiques. **Deuxième passe :** lisez la liste des corrections de bugs, car les corrections révèlent souvent comment un système était réellement censé fonctionner. **Troisième passe :** cherchez les « problèmes connus », qui indiquent ce que les développeurs s'attendent déjà à voir casser.
+
+| Catégorie de note | Ce que cela signifie généralement | Ce que vous devriez faire |
+|---|---|---|
+| « Ajusté » | Un changement d'équilibrage, direction non précisée | Testez vous-même avant de faire confiance à des suppositions |
+| « Correction d'un problème où… » | Un changement de comportement qui peut invalider d'anciennes habitudes | Revérifiez toute stratégie qui reposait sur l'ancien comportement |
+| « Problèmes connus » | Les développeurs sont au courant et travaillent dessus | Ne soumettez pas de rapports en double ; attendez un hotfix |
+| « Passe d'équilibrage » | Plusieurs valeurs liées modifiées en même temps | Attendez-vous à des effets de second ordre au-delà des chiffres listés |
+| « Sous le capot » | Travail technique ou de performance | Surveillez une meilleure stabilité — ou de nouveaux plantages |
+
+### Où obtenir des informations fiables
+
+La qualité des sources varie énormément dans les 24 premières heures après la mise en ligne d'une mise à jour de Rockbeasts.
+
+| Source | Fiabilité | Idéale pour |
+|---|---|---|
+| Notes de version officielles des développeurs | Élevée | Valeurs exactes, changements confirmés, problèmes connus |
+| [Le hub d'actualités officiel de Steam](https://store.steampowered.com/news/) | Élevée | Vérifier que les notes sont à jour et officiellement publiées |
+| Résumés de patchs tenus par la communauté | Moyenne | Aperçus rapides, recoupement |
+| Valeurs extraites des données du jeu | Moyenne | Premières indications, mais souvent incomplètes |
+| Fils de rumeurs sur les réseaux sociaux | Faible | Divertissement uniquement — ne jamais planifier en fonction d'eux |
+
+L'expérience des joueurs partagée sur les forums est réellement utile, mais considérez-la comme anecdotique jusqu'à ce que plusieurs joueurs indépendants rapportent la même chose. Un seul message affirmant qu'un système est « complètement cassé » n'est souvent qu'une session malchanceuse.
+
+## Préparez-vous avant l'arrivée de la mise à jour de Rockbeasts
+
+Le meilleur moment pour vous protéger est avant que le téléchargement ne commence. La plupart des frustrations liées aux mises à jour viennent de lacunes de préparation évitables plutôt que du patch lui-même.
+
+| Étape | Pourquoi c'est important | Temps nécessaire |
+|---|---|---|
+| Sauvegardez vos fichiers de sauvegarde | Protège contre de rares problèmes de format de sauvegarde | 5 minutes |
+| Capturez vos builds et réglages actuels | Vous donne un point de référence après le rééquilibrage | 10 minutes |
+| Notez vos objectifs en cours | Évite de perdre le fil quand les systèmes changent | 5 minutes |
+| Libérez de l'espace disque | Les grosses versions ont besoin de place pour se décompresser et se vérifier | 5 minutes |
+| Mettez à jour vos pilotes graphiques | Réduit le risque de plantages après le patch | 15 minutes |
+| Mettez en pause les téléchargements en arrière-plan | Installation du patch plus rapide et plus fiable | 2 minutes |
+
+### Ce qui se passe après la sortie de la mise à jour
+
+Les déploiements suivent généralement un rythme prévisible. Connaître les étapes vous aide à éviter de paniquer pendant les turbulences normales.
+
+| Étape | Fenêtre typique | À quoi s'attendre | Que faire |
+|---|---|---|---|
+| Téléchargement et vérification | De quelques minutes à quelques heures | Vitesses lentes, barres de progression bloquées | Soyez patient ; n'annulez pas pendant la vérification |
+| Premier lancement | Première heure | Compilation des shaders, temps de chargement plus longs | Laissez-le finir avant de juger les performances |
+| Tension sur les serveurs et le matchmaking | Premières heures | Files d'attente, déconnexions | Réessayez plus tard plutôt que de façon répétée |
+| Phase de découverte par la communauté | Premières 24 à 48 heures | Conseils qui changent rapidement | Vérifiez les affirmations indépendamment |
+| Stabilisation | De quelques jours à quelques semaines | Hotfixes, ajustements d'équilibrage | Surveillez les canaux officiels |
+
+Si vous jouez sur plusieurs plateformes ou partagez un compte entre appareils, attendez-vous à ce que la mise à jour arrive à des moments légèrement différents. C'est un comportement de distribution normal, pas le signe que quelque chose a mal tourné de votre côté.
+
+## Résoudre les problèmes d'une mise à jour de Rockbeasts qui ne se comporte pas correctement
+
+Quand quelque chose ne va pas, partez de l'explication la plus simple et remontez. La plupart des problèmes après une mise à jour de Rockbeasts relèvent de quelques catégories.
+
+| Symptôme | Cause probable | Première solution à essayer |
+|---|---|---|
+| Le jeu ne se lance pas | Téléchargement incomplet ou corrompu | Vérifiez les fichiers du jeu, puis redémarrez |
+| Plante au démarrage | Pilotes obsolètes ou overlays en conflit | Mettez à jour les pilotes, désactivez les overlays |
+| Réglages réinitialisés par défaut | Fichier de configuration écrasé par le patch | Réappliquez les réglages manuellement, puis sauvegardez |
+| La sauvegarde ne se charge pas | Changement de format ou conflit de synchronisation cloud | Restaurez votre sauvegarde, vérifiez l'état de la synchronisation cloud |
+| La progression semble plus lente | Rééquilibrage volontaire | Relisez les notes avant de supposer un bug |
+| Désynchronisation multijoueur | Versions différentes entre les joueurs | Vérifiez que tout le monde utilise la même version |
+
+### Quand signaler et quand attendre
+
+Signalez un bug lorsque vous pouvez le reproduire de manière fiable et qu'il n'est pas déjà listé dans les problèmes connus. Attendez lorsque le problème est répandu et clairement en cours de discussion — les signalements en double ralentissent le tri plus qu'ils n'aident. Les rapports de la communauté suggèrent que la grande majorité des problèmes du premier jour sont résolus dans les premiers hotfixes, donc une courte pause est souvent la solution la plus rapide.
+
+## Questions fréquentes sur la mise à jour de Rockbeasts
+
+**À quelle fréquence dois-je m'attendre à une nouvelle mise à jour de Rockbeasts ?**
+Il n'existe pas de calendrier fixe qui s'applique à tous les jeux, et Rockbeasts ne fait pas exception. Les versions majeures ont tendance à être espacées, avec des patchs d'équilibrage plus petits et des hotfixes pour combler les intervalles. Suivre les canaux officiels est le seul moyen fiable de savoir ce qui est réellement prévu.
+
+**Dois-je commencer une nouvelle sauvegarde après une grosse mise à jour ?**
+Dans la plupart des cas, non — mais cela dépend de la profondeur avec laquelle le patch touche aux systèmes de progression. Sauvegarder votre partie avant d'installer est la meilleure précaution, et elle ne coûte presque rien.
+
+**Les informations de la communauté sont-elles fiables juste après un patch ?**
+C'est un point de départ utile, mais rarement complet. L'expérience des joueurs varie selon la plateforme, le style de jeu et le niveau de progression. Recoupez toute information surprenante avec les notes officielles avant de modifier votre façon de jouer.
+
+**Que faire si la mise à jour de Rockbeasts casse quelque chose d'important pour moi ?**
+Documentez-le avec une capture d'écran ou un clip, consultez la liste des problèmes connus et soumettez un rapport clair s'il n'est pas déjà couvert. En attendant, revenez à votre sauvegarde et contournez le problème plutôt que de réinstaller à répétition.
+
+En résumé : lisez les notes, sauvegardez votre partie, attendez-vous à un premier jour chaotique et laissez aux développeurs un peu de marge pour corriger. Faites cela, et chaque mise à jour de Rockbeasts deviendra quelque chose à attendre avec impatience plutôt qu'à survivre.

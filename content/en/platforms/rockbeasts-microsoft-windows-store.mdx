@@ -1,0 +1,124 @@
+export const metadata = {
+  title: "Rockbeasts Microsoft Windows Store: How to Install, Verify, and Troubleshoot",
+  description: "A practical guide to finding the Rockbeasts Microsoft Windows Store listing, checking requirements, installing safely, and fixing common download problems.",
+  category: "platforms",
+  date: "2026-10-13",
+}
+
+If you are hunting for the Rockbeasts Microsoft Windows Store page, the short version is this: buy and install from the right listing and everything downstream — updates, cloud saves, controller support — gets easier. Grab the wrong one and you inherit broken patches, missing achievements, and a purchase locked to an account you barely use. This guide walks through how to confirm the listing is legitimate, what to check before you install, and how to fix the download problems Windows players report most often.
+
+## How to Find the Official Rockbeasts Microsoft Windows Store Listing
+
+The Microsoft Store app is built into Windows 10 and Windows 11, so there is nothing to download before you start. Open the Store, type **Rockbeasts** into the search bar, and look at what comes back rather than clicking the first tile you see. Search results include apps, games, DLC, and occasionally similarly named software from unrelated publishers.
+
+A genuine listing has a consistent identity across several fields. Publishers do not change between the search result, the product page, and the install dialog. If the name shifts slightly — an extra word, a different capitalization, a stray "Studio" — treat it as a different product until you can prove otherwise.
+
+### Fields worth verifying before you click Install
+
+| Listing field | What to look for | Why it matters |
+|---|---|---|
+| Publisher name | Matches the developer or publisher named on the official site | Fake or re-uploaded listings almost always differ here |
+| Product ID | Stable string shown in the URL and the Store page | Useful for confirming you and a friend see the same product |
+| Supported languages | Includes your language if you need localized text or audio | Prevents buying a region-locked or partial release |
+| System requirements | Matches or exceeds your PC's specs | The single most common cause of refund requests |
+| Age rating | Issued by a recognized ratings board | A missing rating is a red flag on a paid game |
+| Capabilities | Lists controller support, cloud saves, or Play Anywhere features if present | Determines whether progress syncs across devices |
+| Price and editions | Shows a clear price, edition name, and included extras | Vague pricing is common on misleading listings |
+
+If the product page is missing most of these, back out and search again. Regional availability also varies, so a page that loads fine for one player can return "not available in your region" for another. In that case, check the publisher's official site or the game's Steam page for a list of supported storefronts.
+
+### Red flags that suggest a listing is not the real thing
+
+- The screenshots are stretched, watermarked, or reused from a different title.
+- The description is generic marketing copy with no mention of the game's actual features.
+- The publisher name is a string of random characters or a misspelling of a known studio.
+- Reviews are clustered on a single day with near-identical wording.
+- The install size is implausibly small for a game of this scope.
+
+Community reports from Windows Store buyers consistently point to the same pattern: the giveaway is almost always the publisher field, not the artwork. Artwork gets copied; publisher identities usually do not.
+
+## Microsoft Store vs Other PC Storefronts for Rockbeasts
+
+The Microsoft Store is one option among several. Which one suits you depends on how you play, not on which launcher looks nicer. The table below compares the practical differences that matter for a Windows game.
+
+| Feature | Microsoft Store | Steam | Epic Games Store |
+|---|---|---|---|
+| Installation | Single click, managed by Windows | Library-based, managed by client | Library-based, managed by client |
+| Update delivery | Automatic through the Store | Automatic, with scheduling options | Automatic, with scheduling options |
+| Xbox ecosystem integration | Strong, including Xbox app and Game Bar | Limited | Limited |
+| Controller support | Depends on the game's listing | Depends on the game's listing | Depends on the game's listing |
+| Mod support | Usually restricted by the packaged app format | Generally the most permissive | Varies by title |
+| Refunds | Governed by Microsoft's current policy | Governed by Valve's current policy | Governed by Epic's current policy |
+| Offline play | Requires the game to be set as your offline device | Offline mode available | Offline mode available |
+
+Refund terms change, so read the current policy on each storefront before you buy rather than relying on older guides. The pattern is similar across all three: a short playtime window and a short calendar window, whichever comes first.
+
+The Microsoft Store's real advantage is integration. If you already use the Xbox app on PC, Game Bar, and an Xbox controller, the Rockbeasts Microsoft Windows Store version slots into that setup with less friction than a third-party launcher. If modding is central to how you play, a storefront that permits file-level access is usually the better home.
+
+## What to Check Before You Install Rockbeasts
+
+Do this pass before you spend money, not after. Ten minutes of checking prevents most of the support threads you will otherwise end up reading.
+
+| Check | How to do it | Passing condition |
+|---|---|---|
+| Windows version | Settings → System → About | Meets the minimum listed on the Store page |
+| Free storage | Settings → System → Storage | At least double the listed install size free |
+| Graphics driver | Vendor app or Device Manager | Current, not months out of date |
+| DirectX / runtime | Included with modern Windows updates | No missing-component errors |
+| Microsoft account | Signed in to the Store with the buying account | Same account you will play on |
+| Region and language | Settings → Time & language | Matches the listing's supported regions |
+| Antivirus exclusions | Security app settings | Store install path not aggressively blocked |
+
+A few of these deserve more attention than the rest.
+
+- **Storage headroom.** Installers unpack, verify, and then write final files. Leaving only the exact listed size free is a reliable way to hit a mid-install failure.
+- **The right account.** Digital purchases bind to the account that made them. Buying on a secondary account and playing on your primary one causes more "I own this but it says I don't" tickets than any other issue.
+- **Driver age.** A driver that worked for last year's games can still cause crashes on newer ones. Update before you troubleshoot, not after.
+
+## Installing and Updating Rockbeasts from the Windows Store
+
+Once the listing is confirmed and your PC passes the checks, the install itself is straightforward. The steps below are the same whether you start from the Store app or from the Xbox app on PC.
+
+| Step | Action | What you should see |
+|---|---|---|
+| 1 | Open the Store and search Rockbeasts | The verified listing with the correct publisher |
+| 2 | Open the product page and read requirements | Specs you already compared against your PC |
+| 3 | Select Get or Buy | Sign-in prompt if you are not already signed in |
+| 4 | Choose the install drive | Drive picker, if more than one is available |
+| 5 | Confirm and wait | Progress bar with a pause and cancel option |
+| 6 | Launch from the Store or Start menu | The game's splash screen or main menu |
+
+Updates arrive automatically through the Store, but they only install when the Store service can reach the network and the drive has room. If an update appears stalled, open the Store, go to **Library**, and select **Get updates**. That forces a check rather than waiting for the scheduled one.
+
+For players who split time between devices, check whether the Rockbeasts Microsoft Windows Store listing supports cloud saves. When it does, progress follows your account instead of your hard drive, and you can pick up on a second PC without copying files.
+
+## Troubleshooting Common Rockbeasts Microsoft Windows Store Problems
+
+Most install failures fall into a handful of categories. Match your symptom to the table, work top to bottom, and avoid running every fix at once — you will not know which one worked.
+
+| Symptom | Likely cause | Fix |
+|---|---|---|
+| Install button is grayed out | Region mismatch, account issue, or pending system update | Confirm region in Settings, sign out and back in, install Windows updates |
+| Download stalls at a fixed percentage | Store cache or network conflict | Run `wsreset.exe`, then retry from Library → Get updates |
+| Game installs but will not launch | Outdated GPU driver or missing runtime | Update the driver, install pending Windows updates, restart |
+| "You already own this" but no download | Signed in with a different account | Switch to the purchasing account in the Store and Xbox app |
+| Update never appears | Scheduled update missed or paused | Open Library → Get updates, and unpause downloads |
+| Game crashes after an update | Corrupted package | Uninstall, restart, reinstall from the Store |
+
+If none of that helps, the Windows Store troubleshooter under **Settings → System → Troubleshoot** handles several of these cases automatically. For anything account-related, Microsoft support can verify entitlements on their side, which is faster than repeated reinstalls.
+
+A note on community reports: players frequently fix "not available in your region" messages by waiting. Regional listings sometimes appear later than the main release, so a missing page is not always a permanent answer.
+
+## FAQ
+
+**Is Rockbeasts available on the Microsoft Windows Store everywhere?**
+Availability varies by region, and a listing that loads for one player may not load for another. Search the Store directly, then check the publisher's official channels — including the [official Microsoft Store app directory](https://apps.microsoft.com/) — to confirm which regions and storefronts are supported.
+
+**Can I install the Rockbeasts Microsoft Windows Store version on two PCs?**
+Typically yes, as long as both machines are signed in with the same Microsoft account and the game's license allows it. Whether saves sync between them depends on whether the listing supports cloud saves, which is listed on the product page.
+
+**Why does the Store say I do not own a game I already bought?**
+Almost always an account mismatch. The Store, the Xbox app, and Windows itself can each be signed in to different accounts. Check all three and make sure the purchasing account is the active one everywhere.
+
+**Do I need the Xbox app to play the Rockbeasts Microsoft Windows Store version?**
+No, but it helps. The Xbox app manages installs, updates, and social features in one place, and it is the simplest way to confirm your entitlements and cloud saves are working. If you use a controller, it also keeps your profile and achievements in sync automatically.

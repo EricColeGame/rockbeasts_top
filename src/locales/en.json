@@ -8,6 +8,12 @@
   },
   "nav": {
     "home": "Home",
+    "guide": "Guide",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "platforms": "Platforms",
+    "community": "Community",
+    "release": "Release",
     "menu": "Menu",
     "toggleTheme": "Toggle theme"
   },
@@ -433,7 +439,30 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Rockbeasts Beginner Guides",
+    "overviewDescription": "Start strong in Rockbeasts with walkthroughs, beginner tips, and step-by-step guides covering gameplay basics, downloads, and your first band."
+  },
+  "characters": {
+    "overviewTitle": "Rockbeasts Characters",
+    "overviewDescription": "Meet the Rockbeasts cast: playable band members, artists, writers, and the voice actors who bring this rock and roll RPG to life."
+  },
+  "mechanics": {
+    "overviewTitle": "Rockbeasts Game Mechanics",
+    "overviewDescription": "Understand how Rockbeasts plays, from band management and songwriting to story choices and the systems behind every tour and gig."
+  },
+  "platforms": {
+    "overviewTitle": "Rockbeasts Platforms",
+    "overviewDescription": "Find out where to play Rockbeasts across Steam, PS5, PS4, Xbox, Switch, and the Microsoft Store, with platform notes for each release."
+  },
+  "community": {
+    "overviewTitle": "Rockbeasts Community",
+    "overviewDescription": "Join the Rockbeasts community through the official Discord, Reddit, developer updates, Team17 news, and games like Rockbeasts worth playing."
+  },
+  "release": {
+    "overviewTitle": "Rockbeasts Release & Updates",
+    "overviewDescription": "Track everything about the Rockbeasts release, including release date, price, demo, trailers, and the latest patch and update news."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -464,10 +493,12 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Community Resources",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "characterGuides": "Characters",
+    "mechanicsGuides": "Game Mechanics",
+    "platformGuides": "Platforms",
+    "communityGuides": "Community",
+    "releaseGuides": "Release & Updates"
   }
 }
