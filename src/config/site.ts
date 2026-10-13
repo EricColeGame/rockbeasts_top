@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Guides, Creatures, Characters & Gameplay",
   description: "Your ultimate Rockbeasts wiki: creature and character details, gameplay and band management guides, progression tips, and everything about the rock & roll management RPG.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://rockbeasts.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://rockbeasts.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@rockbeasts.top",
   gameUrl: "https://store.steampowered.com/app/1445880/Rockbeasts/",
   heroVideoId: "AF5ozCMpFrE", // ROCKBEASTS | Gameplay Trailer 2 | Lichthund
   social: {
